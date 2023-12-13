@@ -7,7 +7,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
-import ErrorPage from "./pages/ErrorPage.tsx";
 
 
 const router = createBrowserRouter([
@@ -17,8 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: <Home />,
-    errorElement: <ErrorPage />,
+    element: <Home />
   },
 
 ]);

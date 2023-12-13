@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useState } from "react"
 import { useNavigate } from "react-router-dom";
 import { login, register } from "./actions/user-actions";
@@ -32,6 +31,7 @@ function App() {
       } else {
         response = await register(userInfo)
       }
+      console.log(response)
       navigate('/', { replace: true })
     } catch (err) {
       console.log("err", err)
