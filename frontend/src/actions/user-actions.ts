@@ -1,6 +1,6 @@
 import axios from "axios"
 import { UserInfo } from "../App"
-const BASE_URL = "http://localhost:5000/api"
+const BASE_URL = "https://mern-auth-black.vercel.app/api"
 
 
 export function register(userInfo: UserInfo) {
