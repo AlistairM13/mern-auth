@@ -11,11 +11,11 @@ import './index.css'
 
 const router = createBrowserRouter([
   {
-    path: "/auth",
+    path: "/",
     element: <App />
   },
   {
-    path: "/",
+    path: "/home",
     element: <Home />
   },
 
@@ -26,5 +26,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <div className="h-full bg-disco">
       <RouterProvider router={router} />
     </div>
-  </React.StrictMode>,
+  </React.StrictMode>
 )

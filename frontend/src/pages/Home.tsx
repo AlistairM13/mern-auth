@@ -13,7 +13,7 @@ export default function Home() {
 
     return (
         <div className="flex h-full items-center justify-center">
-            <button onClick={clickHandler}>Get users</button>
+            <button onClick={clickHandler} className="bg-black px-4 py-2 text-white">Get users</button>
         </div>
     )
 }

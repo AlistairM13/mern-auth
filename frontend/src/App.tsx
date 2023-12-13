@@ -32,7 +32,7 @@ function App() {
         response = await register(userInfo)
       }
       console.log(response)
-      navigate('/', { replace: true })
+      navigate('/home')
     } catch (err) {
       console.log("err", err)
     }
