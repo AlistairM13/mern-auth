@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-grad {
+  background-image: linear-gradient(90deg, #FC466B 0%, #3F5EFB 51%, #FC466B 100%);;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+}
+
+.btn-grad:focus{
+  background-position: right center;
+}
