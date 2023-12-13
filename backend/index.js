@@ -16,7 +16,7 @@ const app = express()
 app.use(cors({
     credentials: true,
     // origin: "http://localhost:5173"
-    origin: "https://mern-auth-client-alistairm13.vercel.app/"
+    origin: `${process.env.CLIENT_URI}`
 }))
 app.use(express.json())
 app.use(cookieParser())
